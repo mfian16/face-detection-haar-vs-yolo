@@ -75,13 +75,19 @@ Repository ini hanya menyertakan **beberapa sample input dan hasil output** untu
 ## Installation
 
 Clone repository ini terlebih dahulu:
+```bash
 git clone https://github.com/mfian16/face-detection-haar-vs-yolo.git
+```
 
 Masuk ke folder project:
+```bash
 cd face-detection-haar-vs-yolo
+```
 
 Install dependency:
+```bash
 pip install -r requirements.txt
+```
 
 ---
 
@@ -90,30 +96,42 @@ pip install -r requirements.txt
 ### Image Detection
 
 Haar Cascade
+```bash
 python gambar_haarcascade.py
+```
 
 YOLO
+```bash
 python gambar_yolo.py
+```
 
 ---
 
 ### Video Detection
 
 Haar Cascade
+```bash
 python video_haarcascade.py
+```
 
 YOLO
+```bash
 python video_yolo.py
+```
 
 ---
 
 ### Real-Time Detection
 
 Haar Cascade
+```bash
 python live_haarcascade.py
+```
 
 YOLO
+```bash
 python live_yolo.py
+```
 
 ---
 
